@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Benchmark outputs generated during tests
+bench/results/plots/
+bench/results/plots_*/
+
+# Temporary files
+*.tmp
+*.log

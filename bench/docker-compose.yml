@@ -1,0 +1,25 @@
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: tcc-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: tcc_security
+      MYSQL_USER: tcc_user
+      MYSQL_PASSWORD: tcc_pass
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./mysql/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+      - ./mysql/seed.sql:/docker-entrypoint-initdb.d/02-seed.sql:ro
+  mongodb:
+    image: mongo:8.0
+    container_name: tcc-mongodb
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root123
+      MONGO_INITDB_DATABASE: tcc_security
+    ports:
+      - "27018:27017"

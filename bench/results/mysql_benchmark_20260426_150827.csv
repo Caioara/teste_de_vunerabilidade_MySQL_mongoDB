@@ -1,0 +1,5 @@
+timestamp,teste,banco,volume_registros,operacao,execucao,tempo_ms,throughput_ops_s,cpu_percent,memoria_mb,observacoes
+2026-04-26T15:08:29,mysql_base,MySQL,100,insert,1,13.3090,7513.7125,,,docker_stats_indisponivel
+2026-04-26T15:08:31,mysql_base,MySQL,100,select_id,1,106.6026,938.0634,,,docker_stats_indisponivel
+2026-04-26T15:08:33,mysql_base,MySQL,100,select_filtro,1,38.0711,656.6661,,,docker_stats_indisponivel
+2026-04-26T15:08:35,mysql_base,MySQL,100,update,1,142.6509,701.0121,,,docker_stats_indisponivel

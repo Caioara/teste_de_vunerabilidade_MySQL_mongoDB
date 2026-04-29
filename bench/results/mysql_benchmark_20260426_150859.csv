@@ -1,0 +1,5 @@
+timestamp,teste,banco,volume_registros,operacao,execucao,tempo_ms,throughput_ops_s,cpu_percent,memoria_mb,observacoes
+2026-04-26T15:09:01,mysql_validacao_stats,MySQL,100,insert,1,12.6979,7875.3180,1.11,439.60,
+2026-04-26T15:09:03,mysql_validacao_stats,MySQL,100,select_id,1,108.1067,925.0120,1.42,440.00,
+2026-04-26T15:09:05,mysql_validacao_stats,MySQL,100,select_filtro,1,39.5109,632.7368,1.20,441.30,
+2026-04-26T15:09:07,mysql_validacao_stats,MySQL,100,update,1,113.6461,879.9246,1.12,441.10,

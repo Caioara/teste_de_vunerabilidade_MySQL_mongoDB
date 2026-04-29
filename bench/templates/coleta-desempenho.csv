@@ -1,0 +1,9 @@
+teste,banco,volume_registros,operacao,execucao,tempo_ms,throughput_ops_s,cpu_percent,memoria_mb,observacoes
+mysql_base,MySQL,100,insert,1,,,,,
+mysql_base,MySQL,100,select_id,1,,,,,
+mysql_base,MySQL,100,select_filtro,1,,,,,
+mysql_base,MySQL,100,update,1,,,,,
+mysql_base,MySQL,1000,insert,1,,,,,
+mysql_base,MySQL,1000,select_id,1,,,,,
+mysql_base,MySQL,1000,select_filtro,1,,,,,
+mysql_base,MySQL,1000,update,1,,,,,
